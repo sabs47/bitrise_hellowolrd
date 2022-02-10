@@ -22,8 +22,8 @@ platform :ios do
       scheme: "hello",
       clean: true,
       export_method: 'development',
-      #output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
-      output_name: "bitrise_helloworl.ipa",
+      output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
+      output_name: "frombitrise_helloworl.ipa",
     )
   end
 end
